@@ -39,7 +39,7 @@ const CardPurchaseSummary = () => {
               <div className="flex items-center">
                 <p className="text-2xl font-bold">
                   {lastDataPoint
-                    ? numeral(lastDataPoint.totalPurchased).format("$0.00a")
+                    ? numeral(lastDataPoint.totalPurchased).format("₹0.00a")
                     : "0"}
                 </p>
                 {lastDataPoint && (
@@ -49,7 +49,7 @@ const CardPurchaseSummary = () => {
                         ? "text-green-500"
                         : "text-red-500"
                     } flex ml-3`}
-                  >
+                  > 
                     {lastDataPoint.changePercentage! >= 0 ? (
                       <TrendingUp className="w-5 h-5 mr-1" />
                     ) : (
