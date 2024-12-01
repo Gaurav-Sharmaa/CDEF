@@ -117,8 +117,8 @@ const CardExpenseSummary = () => {
                   </p>
                 </div>
                 <span className="flex items-center mt-2">
-                  <TrendingUp className="mr-2 text-green-500" />
-                  30%
+                  {/* <TrendingUp className="mr-2 text-green-500" /> */}
+                  
                 </span>
               </div>
             )}
