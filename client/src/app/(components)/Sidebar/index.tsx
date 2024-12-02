@@ -93,7 +93,7 @@ const Sidebar = () => {
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          GEINI
+          GENEI
         </h1>
 
         <button
