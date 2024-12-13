@@ -12,10 +12,8 @@ import {
   SlidersHorizontal,
   User,
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
 
 interface SidebarLinkProps {
   href: string;
@@ -81,7 +79,7 @@ const Sidebar = () => {
           isSidebarCollapsed ? "px-5" : "px-8"
         }`}
       >
-        <Image
+        <img
           src="https://s3-inventorymanagement-cdef.s3.ap-south-1.amazonaws.com/logo.png"
           alt="edstock-logo"
           width={27}
